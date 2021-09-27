@@ -1,0 +1,7 @@
+{
+  "DELUGE_WEB_URL": "https://localhost:5400",
+  "DELUGE_WEB_PASSWORD": "",
+  "MAX_COMPLETED_AGE": 7,
+  "MAX_DATE_ADDED_AGE": 120,
+  "MAX_COMPLETED_SHARE_RATIO": 5
+}

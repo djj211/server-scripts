@@ -1,0 +1,35 @@
+.DS_Store
+
+# log files and directories
+logs
+*.log
+
+# package directories
+node_modules
+
+# build directories
+.build
+.generated
+src/gen
+.webpack
+
+# Serverless directories
+.serverless
+.dynamodb
+src/gen/
+
+# Editor backup files
+*.bak
+*~
+
+# Code coverage files
+.nyc_output
+coverage
+
+# test reports
+testReports
+
+# env files
+.env
+
+config.json

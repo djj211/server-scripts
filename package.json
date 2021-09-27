@@ -1,0 +1,25 @@
+{
+  "name": "server-scripts",
+  "version": "1.0.0",
+  "description": "node implementation of server script utils",
+  "main": "index.js",
+  "repository": "https://github.com/djj211/server-scripts.git",
+  "author": "Dan Jones <djj211@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "deluge-rpc": "^1.0.5",
+    "global": "^4.4.0",
+    "ts-node": "^10.2.1"
+  },
+  "scripts": {
+    "start:delugeClean": "ts-node --transpile-only src/delugeClean/index.ts",
+    "lint": "eslint ./src --ext .ts,.tsx,.js",
+    "precommit": "lint-staged",
+    "type-check": "tsc --noEmit --skipLibCheck",
+    "test": "LOG_LEVEL=error jest --runInBand"
+  }
+}
